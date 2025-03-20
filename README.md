@@ -1,2 +1,1 @@
-Aluna: Amanda Dantas de Souza
-Turma 3SIS
+Aluna: Amanda Dantas de Souza - Turma 3SIS
