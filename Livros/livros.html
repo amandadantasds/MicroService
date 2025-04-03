@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1 - Amanda Dantas e Marcela Stade</title>
+</head>
+<body>
+    <h1>Cadastro de livros</h1>
+    <form id="formLivros">
+        <input type="text" id="titulo" placeholder="Título">
+        <input type="text" id="autor" placeholder="Autor">
+        <input type="number" id="paginas" placeholder="Páginas">
+        <input type="text" id="genero" placeholder="Gênero">
+        <input type="button" onclick="salvar(event)" value="Adicionar" />
+    </form>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Autor</th>
+                <th>Páginas</th>
+                <th>Gênero</th>
+            </tr>
+        </thead>
+        <tbody id="tbLivros">
+        </tbody>
+    </table>
+    <h1>Buscar livros por autor</h1>
+    <form id="formAutor">
+        <input type="text" id="autorbusca" placeholder="Autor">
+        <input type="button" onclick="buscar(event)" value="Buscar" />
+    </form>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Autor</th>
+                <th>Páginas</th>
+                <th>Gênero</th>
+            </tr>
+        </thead>
+        <tbody id="tbLivrosAutor">
+        </tbody>
+    </table>
+</body>
+<script type="text/javascript" src="livros.js"></script>
+</html>
